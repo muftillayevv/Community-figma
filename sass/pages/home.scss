@@ -1,0 +1,17 @@
+@use '../base/global';
+@use '../utils/functions' as func;
+@use '../utils/mixins' as mix;
+@use '../utils/variables' as var;
+
+body{
+  font-family: 'Poppins';
+  header{
+    .navbar{
+      @include mix.container;
+      max-width: 1440px;
+      
+    }
+  }
+}
+
+
