@@ -11,7 +11,8 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -44,4 +45,4 @@ body header .navbar {
   margin-left: auto;
   margin-right: auto;
   max-width: 1440px;
-}
+}/*# sourceMappingURL=home.css.map */

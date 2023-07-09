@@ -11,7 +11,8 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -32,4 +33,4 @@ button {
 
 input:focus {
   outline: none;
-}
+}/*# sourceMappingURL=company.css.map */

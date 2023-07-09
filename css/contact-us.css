@@ -11,7 +11,8 @@ body {
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -37,4 +38,4 @@ input:focus {
 body h3 {
   color: yellow;
   font-size: 60px;
-}
+}/*# sourceMappingURL=contact-us.css.map */
