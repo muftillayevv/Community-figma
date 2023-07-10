@@ -147,6 +147,11 @@ input:focus {
   text-align: center;
 }
 
+.hero__img-main {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
 .hero__title {
   max-width: 624px;
   color: var(--black, #232536);
@@ -187,6 +192,11 @@ input:focus {
   margin-bottom: 96px;
 }
 
+@media screen and (max-width: 1000px) {
+  .hero__img-main {
+    margin-left: -200px;
+  }
+}
 @media screen and (max-width: 770px) {
   .hero__text {
     max-width: 400px;
