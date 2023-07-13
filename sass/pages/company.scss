@@ -1,1 +1,29 @@
-@use '../base/global';
+@use "../base/global";
+
+.services__home {
+    background-color: #ffe6d2;
+    margin-top: 100px;
+}
+.service-title {
+    font-size: 14px;
+    color: #232536;
+}
+.service-heading {
+    max-width: 622px;
+    max-height: 176px;
+    color: #232536;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 58px;
+}
+.service-text {
+    max-width: 624px;
+    max-height: 48px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600px;
+}
+.service-btn {
+    background-color: #444cfc;
+    
+}
