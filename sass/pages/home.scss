@@ -141,6 +141,149 @@ header {
   }
 }
 main {
+  .about__us {
+    width: 100%;
+    @media (max-width: 962px) {
+      .about__us__container {
+        .about__us--text {
+          max-width: 1279px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+        .about__us--cardbox {
+          .about__cards {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .about__num--percentage {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            .num__percentage--left {
+              max-width: 1280px;
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+            }
+          }
+        }
+      }
+    }
+    .about__us__container {
+      @include mix.container;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding: 150px 50px;
+      gap: 100px;
+      .about__us--text {
+        max-width: 1279px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .about__us--heading {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 3px;
+          text-align: left;
+        }
+        .about__text--left {
+          h2 {
+            max-width: 640px;
+            font-family: Poppins;
+            font-size: 48px;
+            font-weight: 600;
+            line-height: 58px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+        }
+        .about__us--right {
+          h3 {
+            max-width: 547px;
+            font-family: Poppins;
+            font-size: 36px;
+            font-weight: 600;
+            line-height: 54px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          p {
+            max-width: 547px;
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+        }
+      }
+      .about__us--cardbox {
+        max-width: 1280px;
+        display: flex;
+        flex-direction: column;
+        .about__cards {
+          max-width: 1280px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .about__box {
+            width: 418px;
+            height: 488px;
+          }
+        }
+        .about__num--percentage {
+          max-width: 1280px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin: 30px 0;
+          .num__percentage--left {
+            max-width: 1280px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .percentage__box {
+              max-width: 136px;
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              text-align: center;
+              margin-right: 30px;
+              h3 {
+                font-family: Poppins;
+                font-size: 36px;
+                font-weight: 600;
+                line-height: 54px;
+                letter-spacing: 0px;
+                text-align: left;
+              }
+              p {
+                font-family: Poppins;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                letter-spacing: 0px;
+                text-align: left;
+              }
+            }
+          }
+          .num__percentage--right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+          }
+        }
+      }
+    }
+  }
+
   .expertise {
     width: 100%;
     background-color: #ecf8f9;
@@ -216,6 +359,109 @@ main {
               font-size: 14px;
               font-weight: 500;
               line-height: 20px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .service {
+    width: 100%;
+    background-color: #ffe6d2;
+    @media (max-width: 962px) {
+      .service__title {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+      }
+      .service__cardbox {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .service__box {
+          margin: 20px 0;
+        }
+      }
+    }
+    .service__container {
+      @include mix.container;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      padding: 150px 50px;
+      .service__title {
+        max-width: 777px;
+        p {
+          font-family: Poppins;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 20px;
+          letter-spacing: 3px;
+          text-align: left;
+        }
+        h2 {
+          max-width: 700px;
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 58px;
+          letter-spacing: 0px;
+          margin: 35px 0;
+        }
+        button {
+          @include mix.btn(214px, 64px, #666dff, #fff);
+          border: 1px solid #666dff;
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .service__cardbox {
+        max-width: 1280px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 100px;
+        .service__box {
+          width: 405px;
+          height: 355px;
+          border: 1px solid #fff;
+          background-color: #fff;
+          display: flex;
+          align-items: left;
+          flex-direction: column;
+          padding: 50px 30px;
+          h6 {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 28px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin: 15px 0;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+          .service__link {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            a {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
               letter-spacing: 0px;
               text-align: left;
             }
@@ -343,6 +589,166 @@ main {
       }
     }
   }
+  .customer {
+    width: 100%;
+    background-color: #f9f9ff;
+    @media (max-width: 962px) {
+      .customers__container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .customer__content--left {
+          text-align: center;
+          p {
+            margin: 15px 0;
+          }
+        }
+      }
+    }
+    .customers__container {
+      @include mix.container;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 150px 50px;
+      .customer__content--left {
+        max-width: 502px;
+        padding: 30px;
+        h2 {
+          font-family: Poppins;
+          font-size: 48px;
+          font-weight: 600;
+          line-height: 58px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+        p {
+          font-family: Poppins;
+          font-size: 18px;
+          font-weight: 500;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left;
+          span {
+            font-family: Poppins;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            letter-spacing: 0px;
+            text-align: left;
+          }
+        }
+        .customer__review {
+          max-width: 162px;
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+          p {
+            font-family: Poppins;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 16px;
+            letter-spacing: 0px;
+            text-align: left;
+            span {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+          }
+        }
+      }
+      .customer__content--right {
+        max-width: 624px;
+        background-color: #fff;
+        padding: 50px;
+        background-image: url(../../images/home/Shapes4.png),
+          url(../../images/home/Quote.png);
+        background-repeat: no-repeat, no-repeat;
+        background-position: left, top 10px right 40px;
+        h4 {
+          font-family: Poppins;
+          font-size: 24px;
+          font-weight: 600;
+          line-height: 36px;
+          letter-spacing: 0px;
+          text-align: left;
+        }
+        .review__right {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-top: 50px;
+          .review__right--text {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            gap: 20px;
+            h6 {
+              font-family: Poppins;
+              font-size: 16px;
+              font-weight: 600;
+              line-height: 28px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+            p {
+              font-family: Poppins;
+              font-size: 14px;
+              font-weight: 500;
+              line-height: 20px;
+              letter-spacing: 0px;
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
+  }
+  .latest {
+    width: 100%;
+    background-color: #ecf8f9;
+    @media (max-width: 962px) {
+      .latest__container {
+        .latest__cardbox {
+          display: flex;
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+    }
+    .latest__container {
+      @include mix.container;
+      max-width: 1600px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      padding: 150px 50px;
+      .latest__cardbox {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        margin-top: 70px;
+        .latest__box {
+          max-width: 624px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          .latest__box--right {
+            background-color: #fff;
+            padding: 45px;
+          }
+        }
+      }
+    }
+  }
   .subscribe {
     width: 100%;
     @media (max-width: 962px) {
@@ -404,30 +810,30 @@ main {
   }
 }
 footer {
-   @media (max-width: 962px){
-    .container__top{
+  @media (max-width: 962px) {
+    .container__top {
       display: flex;
       align-items: center;
       flex-direction: column;
       gap: 50px;
-      .container__left--part{
+      .container__left--part {
         display: flex;
         align-items: center;
         flex-direction: column;
         text-align: center;
       }
-      .container__right--part{
+      .container__right--part {
         display: flex;
         flex-direction: column;
         justify-content: center;
       }
     }
-    .bootom__box{
+    .bootom__box {
       display: flex;
       align-items: center;
       flex-direction: column;
     }
-   }
+  }
   .footer__container {
     padding: 20px 0;
     .container__top {
@@ -526,9 +932,9 @@ footer {
             text-align: left;
           }
         }
-        .bottom__box--social{
+        .bottom__box--social {
           display: flex;
-          img{
+          img {
             margin-right: 15px;
           }
         }
