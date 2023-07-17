@@ -35,7 +35,7 @@ input:focus {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -794,7 +794,7 @@ input:focus {
   }
 }
 .subscribe .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -965,7 +965,7 @@ footer .footer__container {
   padding: 20px 0;
 }
 footer .footer__container .container__top {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -1043,7 +1043,7 @@ footer .footer__container .container__bottom {
   background-color: #ffe6d2;
 }
 footer .footer__container .container__bottom .bootom__box {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;

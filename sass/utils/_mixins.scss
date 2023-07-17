@@ -3,7 +3,7 @@
 
 @mixin container($padding: 110) {
   $mb-padding: 20;
-  max-width: func.container(1440, $padding, $mb-padding);
+  max-width: func.container(1600, $padding, $mb-padding);
   padding-left: $mb-padding + px;
   padding-right: $mb-padding + px;
   margin-left: auto;
