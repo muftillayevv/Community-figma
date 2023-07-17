@@ -15,4 +15,8 @@
   background-color: $bg-color;
   color: $color;
 }
-
+@mixin media($size) {
+  @media only screen and (max-width: $size) {
+    @content;
+  }
+}
