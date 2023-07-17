@@ -34,6 +34,44 @@ input:focus {
   outline: none;
 }
 
+header {
+  width: 100%;
+  background-color: #232536;
+}
+header .navbar {
+  max-width: 1420px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+}
+header .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  background-color: #232536;
+  padding: 10px 20px;
+  align-items: start;
+}
+header .navbar .container-fluid ul {
+  margin-right: 15px;
+}
+header .navbar .container-fluid ul li .active {
+  color: #a7a8af;
+}
+header .navbar .container-fluid ul li .active:hover {
+  color: #fff;
+}
+header .navbar .container-fluid ul li a {
+  color: #a7a8af;
+}
+header .navbar .container-fluid ul li a:hover {
+  color: #fff;
+}
+header .navbar .container-fluid .nav__clone--link a {
+  color: #ffd3af;
+}
+
 .container {
   max-width: 1420px;
   padding-left: 20px;
@@ -556,15 +594,15 @@ input:focus {
     grid-template-columns: 1fr;
   }
   #expertise .expertise__container .right .card,
-#expertise .expertise__container .right .card-mobile {
+  #expertise .expertise__container .right .card-mobile {
     padding: 30px;
   }
   #expertise .expertise__container .right .card .content p,
-#expertise .expertise__container .right .card-mobile .content p {
+  #expertise .expertise__container .right .card-mobile .content p {
     max-width: 100%;
   }
   #expertise .expertise__container .right .card:hover,
-#expertise .expertise__container .right .card-mobile:hover {
+  #expertise .expertise__container .right .card-mobile:hover {
     transform: scale(1.03);
   }
 }
@@ -576,11 +614,11 @@ input:focus {
     font-size: 14px;
   }
   #expertise .expertise__container .right .card,
-#expertise .expertise__container .right .card-mobile {
+  #expertise .expertise__container .right .card-mobile {
     padding: 25px 20px;
   }
   #expertise .expertise__container .right .card .content p,
-#expertise .expertise__container .right .card-mobile .content p {
+  #expertise .expertise__container .right .card-mobile .content p {
     font-size: 14px;
   }
 }
@@ -1073,4 +1111,4 @@ footer .footer__container .container__bottom .bootom__box .bottom__box--social {
 }
 footer .footer__container .container__bottom .bootom__box .bottom__box--social img {
   margin-right: 15px;
-}/*# sourceMappingURL=company.css.map */
+}

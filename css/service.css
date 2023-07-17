@@ -39,7 +39,7 @@ header {
   background-color: #232536;
 }
 header .navbar {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -77,7 +77,7 @@ header .navbar .container-fluid .nav__clone--link a {
 }
 
 .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -320,7 +320,7 @@ header .navbar .container-fluid .nav__clone--link a {
   }
 }
 .process .process__container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -426,7 +426,7 @@ header .navbar .container-fluid .nav__clone--link a {
   background-color: #ffffff;
 }
 .support .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -523,7 +523,7 @@ header .navbar .container-fluid .nav__clone--link a {
   background-color: #ecf8f9;
 }
 .development .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -613,7 +613,7 @@ header .navbar .container-fluid .nav__clone--link a {
   background-color: #ffffff;
 }
 .support .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -710,7 +710,7 @@ header .navbar .container-fluid .nav__clone--link a {
   background-color: #ecf8f9;
 }
 .development .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -800,7 +800,7 @@ header .navbar .container-fluid .nav__clone--link a {
   background-color: #ffffff;
 }
 .support .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -894,7 +894,7 @@ header .navbar .container-fluid .nav__clone--link a {
 }
 
 .subscribe .container {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -1065,7 +1065,7 @@ footer .footer__container {
   padding: 20px 0;
 }
 footer .footer__container .container__top {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -1143,7 +1143,7 @@ footer .footer__container .container__bottom {
   background-color: #ffe6d2;
 }
 footer .footer__container .container__bottom .bootom__box {
-  max-width: 1260px;
+  max-width: 1420px;
   padding-left: 20px;
   padding-right: 20px;
   margin-left: auto;
@@ -1173,4 +1173,4 @@ footer .footer__container .container__bottom .bootom__box .bottom__box--social {
 }
 footer .footer__container .container__bottom .bootom__box .bottom__box--social img {
   margin-right: 15px;
-}/*# sourceMappingURL=service.css.map */
+}

@@ -11,8 +11,7 @@ body {
 *,
 *::after,
 *::before {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -74,14 +73,11 @@ input:focus {
 .main_header__link:hover {
   opacity: 1;
   margin-top: 10px;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
-  -webkit-transition: 0.8s;
+  transform: scale(1.2);
   transition: 0.8s;
 }
 
 .main_header__item:hover {
-  -webkit-transition: 0.8s;
   transition: 0.8s;
 }
 
@@ -90,12 +86,8 @@ input:focus {
 }
 
 .main_header__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .nav-link {
@@ -111,7 +103,6 @@ input:focus {
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
   color: #ffd3af;
 }
@@ -171,12 +162,8 @@ input:focus {
   padding-left: 32px;
   padding-bottom: 10px;
   gap: 13px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   background-color: blue;
   border: none;
   background-image: url(../../img/Shapes.svg);
@@ -224,23 +211,14 @@ input:focus {
 }
 
 .hero__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1000px) {
   .hero__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    flex-direction: column-reverse;
     row-gap: 30px;
   }
 }
@@ -327,15 +305,10 @@ input:focus {
 }
 
 .apply__wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-column-gap: 32px;
-     -moz-column-gap: 32px;
-          column-gap: 32px;
+  align-items: center;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
 }
 
 #textarea {
@@ -374,10 +347,7 @@ input:focus {
     text-align: center;
   }
   .apply__wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .input {
     padding-right: 200px;
@@ -420,12 +390,8 @@ input:focus {
   background-position: left top;
   background-repeat: no-repeat;
   background-color: #666dff;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 #subscribe {
@@ -474,10 +440,8 @@ input:focus {
   width: 342px;
   height: 24px;
   background-color: #666dff;
-  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #ffa155), color-stop(25%, #ffd3af), color-stop(75%, #ffd3af), color-stop(75%, #4f56ff));
   background: linear-gradient(to right, #ffa155 25%, #ffd3af 25%, #ffd3af 75%, #4f56ff 75%);
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
+  transform: rotate(90deg);
   position: absolute;
   left: 86%;
   right: 0;
@@ -506,10 +470,7 @@ input:focus {
 }
 @media screen and (max-width: 1000px) {
   .subscribe__box {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .info__box {
     display: none;
@@ -610,31 +571,19 @@ input:focus {
 }
 
 .footer__cont {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 200px;
 }
 
 .footer__link3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 8px;
 }
 
@@ -646,12 +595,8 @@ input:focus {
 }
 
 .footer__last {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 8px;
   margin-top: 500px;
 }
@@ -666,10 +611,7 @@ input:focus {
 
 @media screen and (max-width: 1000px) {
   .footer__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
   .footer__cont {
     display: grid;
@@ -703,43 +645,26 @@ input:focus {
 }
 
 .main__foter__header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  align-items: baseline;
   gap: 42px;
 }
 
 .main_footer__img {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   gap: 26px;
   margin-bottom: 30px;
 }
 
 .main_footer__container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
 }
 
 @media screen and (max-width: 1000px) {
   .main_footer__container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
   }
-}/*# sourceMappingURL=career-inner.css.map */
+}
